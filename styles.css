@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+    width: 100%;
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -47,6 +48,14 @@ button:hover {
 }
 
 #result {
-    margin-top: 20px;
+  outline: 1px dashed #4AA2E2;
+    margin-top: 25px;
     font-size: 1em;
+    height:1.5em;
+    padding: 5%;
+    border-radius: 5px;
+    
+}
+*{
+  text-align: center;
 }
